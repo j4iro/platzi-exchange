@@ -1,18 +1,17 @@
 <template>
-  <div id="app" class="bg-blue-400">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Mi primera APP con VUE.JS J4iro" />
-  </div>
+  <main>
+    <px-header />
+    <px-assets-table />
+  </main>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import PxHeader from "@/components/PxHeader";
+import PxAssetsTable from "@/components/PxAssetsTable";
 
 export default {
   name: "App",
-  components: {
-    HelloWorld
-  }
+  components: { PxHeader, PxAssetsTable },
 };
 </script>
 
