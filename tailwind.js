@@ -22,4 +22,4 @@ module.exports = {
     opacity: ["responsive", "hover"]
   },
   purge: ["./src/**/*.html", "./src/**/*.vue", "./src/**/*.jsx"]
-};
+}

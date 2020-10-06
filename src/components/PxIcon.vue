@@ -457,6 +457,6 @@ MDA6MDU6MTYrMDM6MDAprfd5AAAAAElFTkSuQmCC"
 
 <script>
 export default {
-  name: "PxIcon",
-};
+  name: "PxIcon"
+}
 </script>

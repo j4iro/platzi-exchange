@@ -19,12 +19,12 @@
 </template>
 
 <script>
-import PxIcon from "@/components/PxIcon";
+import PxIcon from "@/components/PxIcon"
 
 export default {
   name: "PxHeader",
   components: {
-    PxIcon,
-  },
-};
+    PxIcon
+  }
+}
 </script>
